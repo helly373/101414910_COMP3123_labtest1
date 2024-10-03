@@ -14,5 +14,5 @@ const rejectedPromise = () => {
     });
 };
 
-// resolvedPromise().then(result => console.log(result)).catch(error => console.error(error));
-rejectedPromise().then(result => console.log(result)).catch(error => console.error(error));
+resolvedPromise().then(result => console.log(result)).catch(error => console.error(error));
+// rejectedPromise().then(result => console.log(result)).catch(error => console.error(error));
